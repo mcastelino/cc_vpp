@@ -1,13 +1,19 @@
 # cc_vpp
 
-This is simple standalone Docker Plugin implementation to demonstrate clear containers with VPP.
+This is simple standalone Docker Plugin implementation to demonstrate Clear Containers with VPP.
 
-For more details about clear containers
+For more details about Clear Containers
 https://github.com/01org/cc-oci-runtime
+https://clearlinux.org/clear-containers
 
 For more information about VPP
 https://wiki.fd.io/view/VPP
 
+This example demonstrates the VPP example with some minor modifications.
+- The default network is no longer created
+- Some of the IP and namespace ids have been modified
+
+![alt tag](https://wiki.fd.io/images/3/3c/Vpp-tap-container-routing-example.png)
 
 The docker plugin is used to create the VPP tap interface which is attached to the clear container
 
